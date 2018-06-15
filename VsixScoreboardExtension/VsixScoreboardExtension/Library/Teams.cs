@@ -10,6 +10,8 @@ namespace VsixScoreboardExtension
     {
         public string Name { get; private set; }
         public string Location { get; set; }
+        public string League { get; set; }
+        public string Sport { get; set; }
 
         public Teams(string name, string location)
         {
